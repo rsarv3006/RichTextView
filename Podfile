@@ -9,10 +9,10 @@ target 'RichTextView' do
   use_frameworks!
 
   pod 'Down'
-  pod 'iosMath', :git => 'https://github.com/tophatmonocle/iosMath.git'
+  pod 'iosMath', :git => 'https://github.com/tophatmonocle/iosMath.git', :tag => '1.1.1'
   pod 'SwiftLint'
   pod 'SnapKit'
-  pod 'SwiftRichString', :git => 'https://github.com/tophatmonocle/SwiftRichString.git'
+  pod 'SwiftRichString', :git => 'https://github.com/tophatmonocle/SwiftRichString.git', :tag => '3.7.2'
 end
 
 # This works around a unit test issue introduced in Xcode 10 / Cocoapod

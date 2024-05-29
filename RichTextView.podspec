@@ -27,8 +27,8 @@ string with the relevant rich text surrounded by the appropriate tags and it wil
   s.ios.deployment_target = '10.0'
   s.source_files = 'Source/*.swift', 'Source/Text Parsing/*.swift', 'Source/Constants/*.swift', 'Source/Extensions/*.swift', 'Source/View Generators/*.swift', 'Source/Delegates/*.swift', 'Source/HTML Rendering/*.swift'
   s.dependency 'Down'
-  s.dependency 'iosMath'
+  s.dependency 'iosMath', '~> 1.1.1'
   s.dependency 'SnapKit'
-  s.dependency 'SwiftRichString'
+  s.dependency 'SwiftRichString', '~> 3.7.2'
   s.swift_version = '5.0'
 end
