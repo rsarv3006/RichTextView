@@ -32,9 +32,9 @@
         "package": "SwiftRichString",
         "repositoryURL": "https://github.com/tophatmonocle/SwiftRichString",
         "state": {
-          "branch": "master",
-          "revision": "e0b72d5c96968d7802856d2be096202c9798e8d1",
-          "version": null
+          "branch": null,
+          "revision": "fa126095c626354e1c4ffdf75bc7ad54aedd6b67",
+          "version": "3.7.7"
         }
       }
     ]
